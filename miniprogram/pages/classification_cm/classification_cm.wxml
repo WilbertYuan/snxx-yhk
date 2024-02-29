@@ -1,0 +1,22 @@
+<!--pages/classification_cm/classification_cm.wxml-->
+<!--搜索栏-->
+<view class="bg">
+  <view class="search-box">
+    <image src="/images/reps/sicon.png" class="search-image"></image>
+    <input type="text" placeholder="搜索商品信息" class="search-input"></input>
+  </view>
+</view>
+<scroll-view class="scroll-view" scroll-y>
+  <view class="bar_active" onTap="swap">蔬菜</view>
+  <view class="bar">水果</view>
+  <view class="bar">水产</view>
+  <view class="bar">谷物</view>
+  <view class="bar">肉类</view>
+  <view class="bar">香料</view>
+  <view class="bar">花卉</view>
+  <view class="bar">中药</view>
+  <view class="bar">特产</view>
+  <view class="bar">农副</view>
+  <view class="bar">其它</view>
+
+</scroll-view>
